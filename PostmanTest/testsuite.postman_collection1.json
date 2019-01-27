@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "88215d76-cdf7-43d1-b57a-dce00b479821",
+		"name": "testsuite",
+		"description": "test suite ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getwather",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fb27c242-d521-4f7a-bb68-944367a5764b",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://restapi.demoqa.com/utilities/weather/city/Pune",
+					"protocol": "http",
+					"host": [
+						"restapi",
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"utilities",
+						"weather",
+						"city",
+						"Pune"
+					]
+				},
+				"description": "pune weather"
+			},
+			"response": []
+		},
+		{
+			"name": "get weather mumbai",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e6048c10-b815-4348-bc0b-b22b42ed652d",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://restapi.demoqa.com/utilities/weather/city/Mumbai",
+					"protocol": "http",
+					"host": [
+						"restapi",
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"utilities",
+						"weather",
+						"city",
+						"Mumbai"
+					]
+				},
+				"description": "mumbai"
+			},
+			"response": []
+		},
+		{
+			"name": "get weather chennai",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3d5252f2-fcdd-43ab-98a1-0b89c9548abe",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://restapi.demoqa.com/utilities/weather/city/Chennai",
+					"protocol": "http",
+					"host": [
+						"restapi",
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"utilities",
+						"weather",
+						"city",
+						"Chennai"
+					]
+				},
+				"description": "chenai weather"
+			},
+			"response": []
+		},
+		{
+			"name": "https://reqres.in/api/users?name=kushan&job=engineer",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a73c245a-1825-4ba5-b38d-f3132fef9c0a",
+						"exec": [
+							"pm.test(\"response is ok\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users?name=kushan&job=engineer",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "kushan"
+						},
+						{
+							"key": "job",
+							"value": "engineer"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

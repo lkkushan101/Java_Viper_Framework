@@ -1,0 +1,10 @@
+{
+    "BROWSER_NAME": "Android",
+ 	"deviceName": "AVY9KA9631900412",
+ 	"platformName":"Android",
+	"appPackage": "com.android.dialer",
+	"appActivity": "com.android.mms.ui.ConversationList"
+	
+ 	
+
+}

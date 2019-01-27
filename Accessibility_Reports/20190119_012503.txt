@@ -1,0 +1,18 @@
+Accessibility Violiations for http://www.google.comFound 3 accessibility violations:
+1) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.0/color-contrast?application=axeAPI
+  a) [".b0KoTc > span.Q8LRLc"]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.46 (foreground color: #6f6f6f, background color: #f2f2f2, font size: 11.3pt, font weight: normal). Expected contrast ratio of 4.5:1
+
+
+2) Page must contain one main landmark.: https://dequeuniversity.com/rules/axe/3.0/landmark-one-main?application=axeAPI
+  a) ["html"]
+    Fix all of the following:
+      Document has no main landmarks
+
+
+3) Content should be contained in a landmark region: https://dequeuniversity.com/rules/axe/3.0/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Content not contained by an ARIA landmark
+

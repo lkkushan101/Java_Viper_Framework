@@ -1,0 +1,167 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Viper</groupId>
+  <artifactId>Viper</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
+    <groupId>com.deque</groupId>
+    <artifactId>axe-selenium</artifactId>
+    <version>2.1</version>
+</dependency>
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>2.2.5</version>
+    
+</dependency>
+ <dependency>
+    <groupId>com.jcraft</groupId>
+    <artifactId>jsch</artifactId>
+    <version>0.1.55</version>
+</dependency>
+<dependency>
+    <groupId>net.lightbody.bmp</groupId>
+    <artifactId>browsermob-core</artifactId>
+    <version>2.1.5</version>
+</dependency>
+<dependency>
+    <groupId>javazoom</groupId>
+    <artifactId>jlayer</artifactId>
+    <version>1.0.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fracpete</groupId>
+    <artifactId>musicg</artifactId>
+    <version>1.4.2.2</version>
+</dependency>
+<dependency>
+    <groupId>com.github.2gis.winium</groupId>
+    <artifactId>winium-webdriver</artifactId>
+    <version>0.1.0-1</version>
+</dependency>
+    <dependency>
+	    <groupId>io.appium</groupId>
+	    <artifactId>java-client</artifactId>
+	    <version>7.0.0</version>
+	</dependency>
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20180813</version>
+</dependency>
+<dependency>
+        <groupId>com.uttesh</groupId>
+        <artifactId>pdfngreport</artifactId>
+        <version>2.1.3</version>
+    </dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.6</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.6</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.1</version>
+</dependency>
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>1.2.5</version>
+</dependency>
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.9.10</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>1.2.4</version>
+</dependency>
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+    </dependency>
+<dependency>
+	    <groupId>com.relevantcodes</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>2.41.2</version>
+	</dependency>
+	<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.0</version>
+			
+		</dependency>
+		<dependency>
+		  <groupId>com.google.zxing</groupId>
+		  <artifactId>javase</artifactId>
+		  <version>3.3.3</version>
+		 </dependency>
+		<dependency>
+    		<groupId>com.assertthat</groupId>
+    		<artifactId>selenium-shutterbug</artifactId>
+    		<version>0.9</version>
+		</dependency>
+		 <dependency>
+		    <groupId>net.sf.sociaal</groupId>
+		    <artifactId>freetts</artifactId>
+		    <version>1.2.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20180813</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.qameta.allure</groupId>
+		    <artifactId>allure-testng</artifactId>
+		    <version>2.0-BETA19</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>2.4.5</version>
+		</dependency>
+	  <dependency>
+	    <groupId>com.googlecode.json-simple</groupId>
+	    <artifactId>json-simple</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	<dependency>
+    <groupId>org.zaproxy</groupId>
+    <artifactId>zap-clientapi</artifactId>
+    <version>1.6.0</version>
+</dependency>
+<dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.9.1</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.paulhammant</groupId>
+    <artifactId>ngwebdriver</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<dependency>
+    <groupId>com.github.seratch</groupId>
+    <artifactId>jslack</artifactId>
+    <version>1.1.6</version>
+</dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,9 @@
+{
+    "ZAP_ADDRESS": "127.0.0.1",
+ 	"ZAP_PORT": "8010",
+	"ZAP_API_KEY" : "9l5rf2dpikt9efa4vu141cnu09",
+	"TARGET" : "http://demo.guru99.com/V4/"
+ 	
+ 	
+
+}
